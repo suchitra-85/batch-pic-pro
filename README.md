@@ -2,7 +2,6 @@
 
 A professional web-based batch image resizer and converter built with React, TypeScript, and Tailwind CSS. This tool allows you to resize multiple images simultaneously and convert them between different formats - all processed locally in your browser for maximum privacy and speed.
 
-![Image Resizer Tool](https://img.shields.io/badge/Built%20with-Lovable-ff4785?style=flat-square)
 ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?style=flat-square&logo=tailwindcss)
@@ -154,10 +153,10 @@ npm run lint
 
 This project can be deployed to any static hosting service:
 
-- **Lovable** (Recommended): Click "Publish" in the Lovable editor
 - **Vercel**: Connect your GitHub repo to Vercel
 - **Netlify**: Drag and drop the `dist` folder after building
 - **GitHub Pages**: Build and deploy from `dist` directory
+- **Any Static Host**: Upload the contents of `dist` after running `npm run build`
 
 ## 🤝 Contributing
 
@@ -180,9 +179,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Built with [Lovable](https://lovable.dev) - The AI-powered web app builder
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Icons from [Lucide](https://lucide.dev/)
+- Built with React and modern web technologies
 
 ## 📧 Support
 
